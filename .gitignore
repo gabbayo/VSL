@@ -1,3 +1,9 @@
 *.sdf
 Release
 Debug
+.cproject
+.project
+.ptp-sync/
+**/.ptp-sync-folder
+.settings/
+outgoing/
