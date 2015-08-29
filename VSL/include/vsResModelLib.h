@@ -65,10 +65,15 @@
 //#include <assimp/aiPostProcess.h>
 //#include <assimp/aiScene.h>
 
+#ifdef WIN32
 #include "assimp/Importer.hpp"	//OO version Header!
 #include "assimp/PostProcess.h"
 #include "assimp/Scene.h"
-
+#else
+#include "assimp/Importer.hpp"	//OO version Header!
+#include "assimp/postprocess.h"
+#include "assimp/scene.h"
+#endif
 
 #include "vsResourceLib.h"
 
